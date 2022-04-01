@@ -17,7 +17,7 @@ body {
   height: 80px;
   width: 100%;
   display: flex;
-  background-color: #f8f8ff;
+  background-color: #6B4F4F;
   justify-content: space-evenly;
 }
 
@@ -131,14 +131,14 @@ a {
   font-family: 'Courier New', Courier, monospace;
   font-size: 50px;
   font-weight: bold;
-  background-color: blue;
+  
 }
 .Grossercontainer{
   display: flex;
   margin-top: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  background-color: green;
+  
   height: 500px;
 }
 .Bild{
@@ -147,7 +147,7 @@ a {
   width: 40% ;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: blueviolet;
+  
 }
 .Aufgabenstellung{
   height: 400px;
@@ -156,5 +156,37 @@ a {
   width: 40% ;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: blueviolet;
+  font-size: 40px;
+  
+}
+.Bilder{
+  height: 500px;
+  width: 600px;
+}
+.Quote{
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 45px;
+  background-color:#EED6C4;
+  font-family: 'Courier New', Courier, monospace;
+}
+.html{
+  background-color: #FFF3E4;
+}
+.UContainer{
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 45px;
+  background-color:#EED6C4;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.BiildContainer{
+  
 }
