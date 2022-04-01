@@ -177,16 +177,37 @@ a {
   background-color: #FFF3E4;
 }
 .UContainer{
+  display: flex;
   height: 500px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 5%;
   margin-right: 5%;
   font-size: 45px;
-  background-color:#EED6C4;
+  background-color:#6B4F4F;
   font-family: 'Courier New', Courier, monospace;
 
 }
-.BiildContainer{
+.BildContainer{
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 20px;
+  background-color: blue;
+}
+.Batman{
+  height: 400px;
+  width: 100%;
+}
+.Bild23{
+  margin-top: 50px;
+  height: 500px;
+  font-size: 24px;
+  width: 40% ;
+  margin-left: 5%;
+  margin-right: 5%;
   
 }
