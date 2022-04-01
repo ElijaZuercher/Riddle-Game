@@ -124,6 +124,37 @@ a {
     height: 200px;
     width: 200px;
 }
-.mid{
-    justify-content: center;
+.Unternavigation{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: blue;
+}
+.Grossercontainer{
+  display: flex;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: green;
+  height: 500px;
+}
+.Bild{
+  height: 500px;
+  
+  width: 40% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: blueviolet;
+}
+.Aufgabenstellung{
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 40% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: blueviolet;
 }
