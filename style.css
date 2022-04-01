@@ -15,7 +15,10 @@ body {
 .navigation-container {
 
   height: 80px;
-  width: 100%;
+  margin-left: 50px;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-right: 5%;
   display: flex;
   background-color: #6B4F4F;
   justify-content: space-evenly;
@@ -165,6 +168,7 @@ a {
 }
 .Quote{
   height: 100px;
+  color: #483434;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 5%;
@@ -209,6 +213,7 @@ a {
   width: 40% ;
   margin-left: 5%;
   margin-right: 5%;
+  color: #EED6C4;
   
 }
 .LastContainer{
@@ -227,6 +232,7 @@ a {
   font-family: 'Courier New', Courier, monospace;
   font-size:40px;
   justify-content: center;
+  color: #FFF3E4;
   
 }
 .Codeeingabe{
@@ -237,4 +243,18 @@ a {
   align-items: center;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
+  color: #483434;
+}
+
+.brown{
+  background-color: #483434;
+  height: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.f21{
+  color: #FFF3E4;
+}
+.g21{
+  color: #483434;
 }
