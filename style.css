@@ -14,6 +14,7 @@ body {
 .bild{
   height: 200px;
   width: 200px;
+  
 }
 .navigation-container {
 
@@ -180,4 +181,17 @@ a {
 .g21{
   color: #483434;
   border-radius:15px;
+}
+#contentScroller
+{
+	position: absolute;
+	top: 25%;
+	bottom: 25%;
+	left: 0px;
+	right: 0px;
+	
+	margin: 0px auto;
+	width: 50%;
+	
+	overflow: scroll;
 }
