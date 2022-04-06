@@ -3,6 +3,7 @@ document.getElementById("Eingabefeld").addEventListener("click", Passwort)
 document.getElementById("code").addEventListener("click", BuchstabeG)
 document.getElementById("Batmanbild").addEventListener("click", BuchstabeP)
 document.getElementById("instaminsta").addEventListener("click", BuchstabeI2)
+document.getElementById("rätsel").addEventListener("click", Faker)
 
 
 
@@ -32,4 +33,6 @@ function BuchstabeP() {
 function BuchstabeI2(){
     window.location.assign("newsite.html");
 }
-
+function Faker(){
+    window.location.assign("fake.html");
+}
