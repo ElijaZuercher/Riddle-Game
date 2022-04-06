@@ -30,10 +30,6 @@ function BuchstabeP() {
       }
 }
 function BuchstabeI2(){
-    setTimeout(zurück23, 2000);
     window.location.assign("newsite.html");
 }
 
-function zurück23() {
-    window.history.back()
-}

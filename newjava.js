@@ -1,4 +1,4 @@
-setTimeout(zurück, 1000);
+setTimeout(zurück, 100);
 function zurück(){
     window.history.back();
 }
