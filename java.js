@@ -1,5 +1,9 @@
 document.getElementById("Kaffebild").addEventListener("click", BuchstabeI)
 document.getElementById("Eingabefeld").addEventListener("click", Passwort)
+document.getElementById("code").addEventListener("click", BuchstabeG)
+document.getElementById("Batmanbild").addEventListener("click", BuchstabeP)
+document.getElementById("instaminsta").addEventListener("click", BuchstabeI2)
+
 
 
 function BuchstabeI(){
@@ -7,10 +11,29 @@ function BuchstabeI(){
 }
 
 function Passwort() {
-    let wort = prompt("Bitte das Passwort eingeben:", "Bartgeier")
+    let wort = prompt("Bitte das Passwort eingeben:", "0-0-0-0-0-0-0")
     if (wort == "Pinguin" || wort == "pinguin"|| wort == "PINGUIN") {
         window.location.assign("glückwunsch.html");
     } else {
         alert("Falsch")
       }
+}
+function BuchstabeG(){
+    alert("G");
+}
+function BuchstabeP() {
+    let wort = prompt("Wie heisst der neue Batman Schauschpieler", "Vorname Nachmane")
+    if (wort == "Robert Pattinson") {
+        alert("pushin P");
+    } else {
+        alert("Falsch")
+      }
+}
+function BuchstabeI2(){
+    setTimeout(zurück23, 2000);
+    window.location.assign("newsite.html");
+}
+
+function zurück23() {
+    window.history.back()
 }
