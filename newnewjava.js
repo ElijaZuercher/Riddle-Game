@@ -1,4 +1,5 @@
 setTimeout(zurück, 100);
-function zurück(){
+
+function zurück() {
     window.history.back();
 }

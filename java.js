@@ -7,32 +7,36 @@ document.getElementById("rätsel").addEventListener("click", Faker)
 
 
 
-function BuchstabeI(){
+function BuchstabeI() {
     alert("I");
 }
 
 function Passwort() {
     let wort = prompt("Bitte das Passwort eingeben:", "0-0-0-0-0-0-0")
-    if (wort == "Pinguin" || wort == "pinguin"|| wort == "PINGUIN") {
+    if (wort == "Pinguin" || wort == "pinguin" || wort == "PINGUIN") {
         window.location.assign("glückwunsch.html");
     } else {
         alert("Falsch")
-      }
+    }
 }
-function BuchstabeG(){
+
+function BuchstabeG() {
     alert("G");
 }
+
 function BuchstabeP() {
     let wort = prompt("Wie heisst der neue Batman Schauschpieler", "Vorname Nachmane")
     if (wort == "Robert Pattinson") {
         alert("pushin P");
     } else {
         alert("Falsch")
-      }
+    }
 }
-function BuchstabeI2(){
+
+function BuchstabeI2() {
     window.location.assign("newsite.html");
 }
-function Faker(){
+
+function Faker() {
     window.location.assign("fake.html");
 }
